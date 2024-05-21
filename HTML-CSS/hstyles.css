@@ -1,0 +1,237 @@
+
+body, ul, p{
+  margin: 0px;
+  padding: 0px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body{
+  background-color: rgb(46, 45, 45);
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(255, 167, 167);
+}
+
+.header{
+  background-image: linear-gradient(to left, red, rgb(46, 45, 45), black);
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 70px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  padding: auto;
+  margin: auto;
+  font-size: 1.1em;
+  font-family: Arial;
+  list-style: none;
+}
+
+.historia, .titulos, .atual, .cronog{
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-block: 15px;
+}
+
+.home{
+  height: calc(100% - 70px);
+}
+
+.maintitle{
+  padding-left: 80px;
+  padding-bottom: 20px;
+  font-family: Arial;
+  color: crimson;
+}
+
+.histitle{
+  padding-left: 80px;
+  padding-bottom: 20px;
+  font-family: Arial;
+  color: crimson;
+}
+
+.titletitle{
+  padding-left: 80px;
+  padding-bottom: 20px;
+  font-family: Arial;
+  color: crimson;
+}
+
+.origem1{
+  padding-left: 80px;
+  padding-bottom: 20px;
+  font-family: Arial;
+  color: white;
+}
+
+.calen1{
+  padding-left: 80px;
+  padding-bottom: 20px;
+  font-family: Arial;
+  color: crimson;
+  padding-right: 75px;
+}
+
+.elenco1, .uniformes1{
+  padding-left: 40px;
+  padding-bottom: 20px;
+  font-family: Arial;
+  color: crimson;
+}
+
+.table{
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: rgb(238, 153, 153);
+}
+
+.infobox{
+  border: 1px solid #a2a9b1;
+  border-spacing: 3px;
+  background-color: #472229;
+  color: black;
+  margin: 0.5em 0 0.5em 1em;
+  padding: 0.5em;
+  float: right;
+  clear: right;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+.startinfo{
+  font-size: 0.9em;
+  font-family: Arial;
+  color: white;
+}
+
+.logobox{
+  padding-left:97px;
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+
+.nivel1{
+  font-size: 0.9em;
+  font-family: Arial;
+  color: white;
+}
+
+.nivel2{
+  font-size: 0.7em;
+  font-family: Arial;
+  color: white;
+  text-align: right;
+}
+
+.news{
+  font-family: Arial;
+  color: white;
+  padding-left: 80px;
+}
+
+.noticias{
+  padding-left: 80px;
+  justify-content: space-between;
+}
+
+.noticia2{
+  padding-left: 65px;
+}
+
+.body2{
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+.calendario{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.campeonato{
+  padding-bottom: 4px;
+  color: rgb(223, 156, 156);
+  font-family: Arial;
+}
+
+.partida{
+  padding-bottom: 4px;
+  color: white;
+  font-family: Arial;
+  font-size: 0.9em;
+}
+
+.horario{
+  padding-bottom: 25px;
+  color: white;
+  font-family: Arial;
+  font-size: 0.9em;
+}
+
+.listaelenco{
+  font-size: 0.9em;
+  font-family: Arial;
+  color: white;
+  display: flex;
+}
+
+li{
+  padding-bottom: 7px;
+}
+
+a{
+  color: white;
+}
+
+.conteudo1, .conteudo2{
+  font-size: 0.9em;
+  font-family: Arial;
+  color: white;
+}
+
+.lista11, .lista12, .lista13, .lista14{
+  list-style: disc;
+}
+
+.uniformes3{
+  padding-left: 40px;
+}
+
+.tabelatitle{
+  border: 1px solid #a2a9b1;
+  border-spacing: 3px;
+  background-color: #615151;
+  color: black;
+  margin: 0.5em 0 0.5em 1em;
+  padding: 1em; 
+  line-height: 1.5em;
+  text-align: left;
+  color: white;
+  font-family: Arial;
+  font-size: 0.9em;
+}
